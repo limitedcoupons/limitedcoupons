@@ -1,0 +1,58 @@
+MS Edge Common Flags
+:: Open Edge with a specific profile
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory="Profile 2"
+
+:: Launch Edge in InPrivate (incognito) mode
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --incognito
+
+:: Launch Edge in Guest mode
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --guest
+
+:: Restore the last browsing session
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --restore-last-session
+
+:: Open a URL in a new window
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --new-window https://example.com
+
+:: Open a URL as a standalone app window
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --app=https://example.com
+
+:: Start Edge maximized
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --start-maximized
+
+:: Launch Edge in kiosk mode with a given URL
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --kiosk https://example.com
+
+:: Enable remote debugging on port 9222
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --remote-debugging-port=9222
+
+:: Disable all extensions
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-extensions
+
+:: Disable GPU acceleration (force software rendering)
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-gpu
+
+:: Disable plugins
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-plugins
+
+:: Enable verbose logging
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --enable-logging --v=1
+
+:: Ignore SSL certificate errors (testing only)
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --ignore-certificate-errors
+
+:: Allow file access from local files
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-file-access-from-files
+
+:: Disable same-origin policy (unsafe, dev/test only)
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --disable-web-security
+
+:: Launch Edge in fullscreen kiosk mode
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --edge-kiosk-type=fullscreen https://example.com
+
+:: Launch Edge in public-browsing kiosk mode
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --edge-kiosk-type=public-browsing https://example.com
+
+:: Skip first-run setup dialogs
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-first-run
+
