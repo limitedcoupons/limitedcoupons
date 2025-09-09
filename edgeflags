@@ -1,6 +1,4 @@
 MS Edge Common Flags
-:: Open Edge with a specific profile
-"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory="Profile 2"
 
 :: Launch Edge in InPrivate (incognito) mode
 "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --incognito
@@ -10,6 +8,9 @@ MS Edge Common Flags
 
 :: Restore the last browsing session
 "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --restore-last-session
+
+:: Open Edge with a specific profile
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory="Profile 2"
 
 :: Open a URL in a new window
 "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --new-window https://example.com
@@ -55,4 +56,7 @@ MS Edge Common Flags
 
 :: Skip first-run setup dialogs
 "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-first-run
+
+Combo Example:
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --profile-directory="Profile 2" --no-first-run
 
